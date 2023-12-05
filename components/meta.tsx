@@ -34,18 +34,18 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content="Unternehmer & Kantonsratskandidat 2024 aus Neu St. Johann SG im Toggenburg. Ich setze mich für eine freie Wirtschaft und die Digitalisierung ein." />
       { /* Facebook Meta Tags */}
-      <meta property="og:url" content="http://adrian-bruegger.ch/" />
+      <meta property="og:url" content="https://www.adrian-bruegger.ch/" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Adrian Brügger | Unternehmer und Kantonsratskandidat aus dem Toggenburg" />
       <meta property="og:description" content="Unternehmer & Kantonsratskandidat 2024 aus Neu St. Johann SG im Toggenburg. Ich setze mich für eine freie Wirtschaft und die Digitalisierung ein." />
-      <meta property="og:image" content="http://adrian-bruegger.ch/assets/og-image.png" />
+      <meta property="og:image" content="https://www.adrian-bruegger.ch/assets/og-image.png" />
       { /* Twitter Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content="adrian-bruegger.ch" />
-      <meta property="twitter:url" content="http://adrian-bruegger.ch/" />
+      <meta property="twitter:url" content="https://www.adrian-bruegger.ch/" />
       <meta name="twitter:title" content="Adrian Brügger | Unternehmer und Kantonsratskandidat aus dem Toggenburg" />
       <meta name="twitter:description" content="Unternehmer & Kantonsratskandidat 2024 aus Neu St. Johann SG im Toggenburg. Ich setze mich für eine freie Wirtschaft und die Digitalisierung ein." />
-      <meta name="twitter:image" content="http://adrian-bruegger.ch/assets/og-image.png" />
+      <meta name="twitter:image" content="https://www.adrian-bruegger.ch/assets/og-image.png" />
     </Head>
   )
 }
