@@ -30,7 +30,6 @@ export default function PostPreview({
                 dangerouslySetInnerHTML={{ __html: title }}
               ></a>
               <ExternalLink className="w-5 h-5 inline-block ml-1 mb-1.5" />
-
             </>
           ) : (
             <Link

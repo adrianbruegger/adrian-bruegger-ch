@@ -8,12 +8,11 @@ export default function Intro({ title, subtitle, text, image, gradient, dataURL,
                 <span className="w-full text-4xl font-syne md:text-7xl font-bold tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#0e52a0] to-[#e8308a] md:pr-8">
                     {title}
                 </span>
-                <h1 className="text-xl w-fit -ml-3 rounded-full leading-none text-[#0e52a0] px-3 py-2 bg-[#0e52a0]/10">
+                <h1 className="text-xl w-fit -ml-3 rounded-full leading-none text-[#0e52a0] px-3 my-2 py-2 bg-[#0e52a0]/10">
                     {subtitle}
                 </h1>
                 <div className="text-lg leading-relaxed lg:w-3/4">{text}</div>
             </div>
-
             <Image placeholder="blur" sizes="(min-width: 1024px) 450px, 100%"
                 blurDataURL={dataURL} priority src={image} width={450} height={450} className={`${gradient} max-w-full lg:w-[450px] lg:h-[450px] rounded-3xl border aspect-square object-cover`} alt={alt} />
         </section>
