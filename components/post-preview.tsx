@@ -20,7 +20,7 @@ export default function PostPreview({
         </div>
       )}
       <div className='xl:w-3/4 w-full'>
-        <h3 className="text-3xl mb-1">
+        <h3 className="text-2xl mb-1">
           {link ? (
             <>
               <a
@@ -29,7 +29,7 @@ export default function PostPreview({
                 target="_blank" // Add target="_blank" to open link in new window
                 dangerouslySetInnerHTML={{ __html: title }}
               ></a>
-              <ExternalLink className="w-6 h-6 inline-block ml-2 mb-2" />
+              <ExternalLink className="w-5 h-5 inline-block ml-1 mb-1.5" />
 
             </>
           ) : (
@@ -44,7 +44,7 @@ export default function PostPreview({
           <Date dateString={date} />
         </div>
         <div
-          className="text-lg leading-relaxed mb-4"
+          className="leading-relaxed"
           dangerouslySetInnerHTML={{ __html: excerpt }}
         />
       </div>

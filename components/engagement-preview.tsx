@@ -24,10 +24,8 @@ export default function EngagementPreview({
                     />
                 )}
             </div>
-            <p className="italic">
-                {zeitraum}
-            </p>
-            <h3 className="text-3xl mb-3 leading-snug">
+
+            <h3 className="text-xl font-bold leading-snug">
                 {link ? (
                     <>
                         <a
@@ -36,7 +34,7 @@ export default function EngagementPreview({
                             target="_blank" // Add target="_blank" to open link in new window
                             dangerouslySetInnerHTML={{ __html: title }}
                         ></a>
-                        <ExternalLink className="w-6 h-6 inline-block ml-2 mb-2" />
+                        <ExternalLink className="w-5 h-4 inline-block ml-1 mb-2" />
 
                     </>
                 ) : (
@@ -47,9 +45,11 @@ export default function EngagementPreview({
                     ></Link>
                 )}
             </h3>
-
+            <p className="italic my-1">
+                {zeitraum}
+            </p>
             <div
-                className="text-lg leading-relaxed mb-4"
+            className=" leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: excerpt }}
             />
         </div>

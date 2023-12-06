@@ -12,11 +12,12 @@ export default function Standpunkte() {
                 <div className="w-full max-w-full space-y-4 mx-auto">
                     <div className="grid lg:grid-cols-3 text-start gap-8">
                         <div className="flex flex-col space-y-2 items-start  border-gray-800 rounded-lg">
-                            <Rocket className="h-16 w-16" />
-                            <h3 className="text-3xl mb-3 leading-snug">
+                            <Rocket className="h-12 w-12" />
+                            <h3 className="text-xl font-bold">
                                 Freiheit für die Wirtschaft
                             </h3>
-                            <p className="text-lg leading-relaxed mb-4">
+                            <p className="leading-relaxed" >
+
                                 Ich stehe für eine liberale Wirtschaftsordnung,
                                 in der der Staat sich zurückhält und der freie
                                 Markt gedeihen kann. Mein Ziel ist es,
@@ -26,11 +27,12 @@ export default function Standpunkte() {
                             </p>
                         </div>
                         <div className="flex flex-col items-start space-y-2 border-gray-800  rounded-lg">
-                            <Mountain className="h-16 w-16" />
-                            <h3 className="text-3xl mb-3 leading-snug">
+                            <Mountain className="h-12 w-12" />
+                            <h3 className="text-xl font-bold">
                                 Unser Toggenburg - unsere Heimat
                             </h3>
-                            <p className="text-lg leading-relaxed mb-4">
+                            <p className=" leading-relaxed" >
+
                                 Ich engagiere mich für ein lebenswertes
                                 Toggenburg, in dem wir uns wohl fühlen und
                                 nachfolgende Generationen eine Zukunft haben. Dafür braucht
@@ -39,12 +41,11 @@ export default function Standpunkte() {
                             </p>
                         </div>
                         <div className="flex flex-col items-start space-y-2 border-gray-800  rounded-lg">
-                            <CassetteTape className="h-16 w-16" />
-
-                            <h3 className="text-3xl mb-3 leading-snug">
+                            <CassetteTape className="h-12 w-12" />
+                            <h3 className="text-xl font-bold">
                                 Unsere digitale Zukunft
                             </h3>
-                            <p className="text-lg leading-relaxed mb-4">
+                            <p className=" leading-relaxed" >
                                 Ich setze mich für eine Zukunft ein, in der digitale Technologien unser Leben erleichtern und bereichern und in der wir die Chancen der Digitalisierung nutzen können.
                             </p>
                         </div>
