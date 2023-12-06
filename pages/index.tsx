@@ -21,6 +21,7 @@ export default function Index({ engagement, aktuelles, preview }) {
                 <Intro
                     title={<p>Grüezi, <br />ich bin Adrian Brügger.</p>}
                     subtitle={"Unternehmer und Kantonsratskandidat aus dem Toggenburg"}
+                    alt={"Adrian Brügger"}
                     text={
                         <div>
                             Mein Name ist Adrian Brügger. Ich wohne in <b>Neu St. Johann</b> im schönen Toggenburg und kandidiere für den Kantonsrat für die FDP. Vielen Dank

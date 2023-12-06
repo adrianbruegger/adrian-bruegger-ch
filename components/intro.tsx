@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Intro({ title, subtitle, text, image, gradient, dataURL }) {
+export default function Intro({ title, subtitle, text, image, gradient, dataURL, alt }) {
     return (
         <section className="flex-col-reverse lg:h-[500px] lg:flex-row flex overflow-visible items-start lg:items-center md:justify-between gap-8 lg:gap-0 mt-5 lg:mt-16 mb-16 md:mb-12 ">
             <div className="flex flex-col justify-start gap-1">
@@ -15,7 +15,7 @@ export default function Intro({ title, subtitle, text, image, gradient, dataURL 
             </div>
 
             <Image placeholder="blur" sizes="(min-width: 1024px) 450px, 100%"
-                blurDataURL={dataURL} priority src={image} width={450} height={450} className={`${gradient} max-w-full lg:w-[450px] lg:h-[450px] rounded-3xl border aspect-square object-cover`} alt={""} />
+                blurDataURL={dataURL} priority src={image} width={450} height={450} className={`${gradient} max-w-full lg:w-[450px] lg:h-[450px] rounded-3xl border aspect-square object-cover`} alt={alt} />
         </section>
     );
 }
