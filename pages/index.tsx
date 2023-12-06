@@ -15,12 +15,12 @@ export default function Index({ engagement, aktuelles, preview }) {
     return (
         <Layout preview={preview}>
             <Head>
-                <title>Adrian Brügger | Unternehmer und Kantonsratskandidat aus dem Toggenburg</title>
+                <title>Adrian Brügger | Unternehmer und FDP-Kantonsratskandidat aus dem Toggenburg</title>
             </Head>
             <Container>
                 <Intro
                     title={<p>Grüezi, <br />ich bin Adrian Brügger.</p>}
-                    subtitle={"Unternehmer und Kantonsratskandidat aus dem Toggenburg"}
+                    subtitle={"Unternehmer und FDP-Kantonsratskandidat aus dem Toggenburg"}
                     alt={"Adrian Brügger"}
                     text={
                         <div>

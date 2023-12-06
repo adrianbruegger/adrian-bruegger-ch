@@ -17,8 +17,8 @@ interface Props {
 export default function CoverImage({ title, coverImage, slug, engagement, link }: Props) {
   const image = (
     <Image
-      width={300}
-      height={200}
+      width={500} 
+      height={333}
       alt={`Cover Image for ${title}`}
       src={coverImage?.node.sourceUrl}
       quality={75}
