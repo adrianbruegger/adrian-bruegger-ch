@@ -23,7 +23,7 @@ export default function Header() {
         },
     ];
     return (
-        <div className="container mx-auto px-5 xl:px-8">
+        <div className="mx-auto sm:px-5 xl:px-8">
             <nav style={{ zIndex: 100 }} className="sticky top-0 z-100 border-b bg-white/20 border-primary backdrop-blur-md px-2">
                 <div className="flex items-center justify-between w-full py-2 lg:px-0">
                     <p className="font-syne w-fit md:w-full text-2xl md:text-4xl font-bold tracking-tight leading-tight">
