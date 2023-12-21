@@ -4,6 +4,7 @@ import Head from 'next/head'
 export default function Meta() {
   return (
     <Head>
+      <script defer data-domain="adrian-bruegger.ch" src="https://analytics.siebenberge.com/js/script.js"></script>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
