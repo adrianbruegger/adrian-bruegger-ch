@@ -26,7 +26,7 @@ export default function Index({ engagement, aktuelles, preview }) {
                     text={
                         <div>
                             Mein Name ist Adrian Brügger. Ich wohne in <b>Neu St. Johann</b> im schönen Toggenburg und kandidiere für den Kantonsrat für die FDP. Vielen Dank
-                            für Ihr Interesse an meiner Tätigkeit. Hier erfahren Sie mehr über meine <Link href={"/engagement"}><b>Engagements</b></Link>, <Link href={"/posts"}><b>Aktuelles</b></Link> und <Link href={"//ueber-mich"}><b>meine
+                            für Ihr Interesse an meiner Tätigkeit. Hier erfahren Sie mehr über meine <Link href={"/engagement"}><b>Engagements</b></Link>, <Link href={"/posts"}><b>Aktuelles</b></Link> und <Link href={"/ueber-mich"}><b>meine
                                 Person</b></Link>.
                         </div>
                     }
