@@ -16,16 +16,16 @@ export default function Index({ engagement, aktuelles, preview }) {
     return (
         <Layout preview={preview}>
             <Head>
-                <title>Adrian Brügger | Unternehmer und FDP-Kantonsratskandidat aus dem Toggenburg</title>
+                <title>Adrian Brügger | Unternehmer  aus dem Toggenburg</title>
             </Head>
             <Container>
                 <Intro
                     title={<p>Grüezi, <br />ich bin Adrian Brügger.</p>}
-                    subtitle={"Unternehmer und FDP-Kantonsratskandidat aus dem Toggenburg"}
+                    subtitle={"Unternehmer aus dem Toggenburg"}
                     alt={"Adrian Brügger"}
                     text={
                         <div>
-                            Mein Name ist Adrian Brügger. Ich wohne in <b>Neu St. Johann</b> im schönen Toggenburg und kandidiere für den Kantonsrat für die FDP. Vielen Dank
+                            Mein Name ist Adrian Brügger. Ich wohne in <b>Neu St. Johann</b> im schönen Toggenburg. Vielen Dank
                             für Ihr Interesse an meiner Tätigkeit. Hier erfahren Sie mehr über meine <Link href={"/engagement"}><b>Engagements</b></Link>, <Link href={"/posts"}><b>Aktuelles</b></Link> und <Link href={"/ueber-mich"}><b>meine
                                 Person</b></Link>.
                         </div>
