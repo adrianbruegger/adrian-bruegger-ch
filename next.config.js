@@ -18,6 +18,7 @@ module.exports = withBundleAnalyzer({
                 pathname: "/wp-content/uploads/**",
             },
         ],
+        minimumCacheTTL: 3600,
     },
 });
 
